@@ -10,7 +10,7 @@ from test import number
 from phonenumbers import geocoder
 from phonenumbers import carrier
 number_info = phonenumbers.parse(number, "CH")
-print(geocoder.country_name_for_number(number_info, "en"))
+# print(geocoder.country_name_for_number(number_info, "en"))
 print(geocoder.description_for_number(number_info, "en"))
 carrier_info = phonenumbers.parse(number, "RO")
 print(carrier.name_for_number(carrier_info, "en"))
